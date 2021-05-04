@@ -5,3 +5,5 @@ terraform init
 terraform apply -var-file=basic.tfvars
 terraform destroy -var-file=basic.tfvars
 etc.
+
+
