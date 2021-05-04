@@ -1,5 +1,5 @@
 # slurm-gcp-carnegieood
-ml gcloud
+ml gcloud \n
 cd into "tf/examples/basic"
 terraform init
 terraform apply -var-file=basic.tfvars
