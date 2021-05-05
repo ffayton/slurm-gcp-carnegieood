@@ -80,6 +80,7 @@ module "slurm_cluster_login" {
   controller_name           = module.slurm_cluster_controller.controller_node_name
   controller_secondary_disk = var.controller_secondary_disk
   disable_login_public_ips  = var.disable_login_public_ips
+  enable_display            = var.enable_display
   labels                    = var.login_labels
   login_network_storage     = var.login_network_storage
   machine_type              = var.login_machine_type
