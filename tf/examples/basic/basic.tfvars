@@ -3,6 +3,7 @@ project      = "carnegieood"
 zone         = "us-west1-b"
 login_disk_size_gb = 50
 compute_image_disk_size_gb = 50
+enable_display  = "true"
 
 # network_name            = "<existing network name>"
 # subnetwork_name         = "<existing subnetwork name>"
