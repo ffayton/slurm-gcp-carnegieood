@@ -34,7 +34,7 @@ resource "google_compute_instance" "login_node" {
   tags = ["login"]
   displayDevice {
     enableDisplay: var.enable_display
-  },
+  }
   boot_disk {
     auto_delete = false
     initialize_params {
