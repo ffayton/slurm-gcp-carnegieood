@@ -32,7 +32,9 @@ resource "google_compute_instance" "login_node" {
   zone         = var.zone
 
   tags = ["login"]
-
+  displayDevice {
+    enableDisplay: var.enable_display
+  },
   boot_disk {
     auto_delete = false
     initialize_params {
